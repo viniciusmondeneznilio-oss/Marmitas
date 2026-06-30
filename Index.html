@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css.css">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="titulo">Marmitaria Escudeiro</h1>
+        </header>
+        
+        <section class="card">
+            Cardápio
+        </section>
+    </br>
+    <img src="WhatsApp Image 2026-06-30 at 09.27.42.jpeg" alt="">
+        <section class="card">
+            Tamanho
+        </section>
+        <input type="radio" name="tamanho" value="18">
+        Pequena - R$18
+        
+        
+        
+        <input type="radio" name="tamanho" value="25">
+        Grande - R$25
+    </br>
+    
+    <section class="card">
+        Misturas
+    </section>
+    <h1 class="h1">Carnes:</h1>
+    <div class="organizar">
+        <h3 class="h3"> Bife acebolado</h3>
+        <input type="checkbox" id="check" class="carne">
+        <h3 class="h3"> Parmegiana de frango</h3>
+        <input type="checkbox" id="check" class="carne">
+        <h3 class="h3"> Ovo frito duplo</h3>
+        <input type="checkbox" id="check" class="carne">
+        <h3 class="h3"> Panqueca de carne ao molho vermelho</h3>
+        <input type="checkbox" id="check" class="carne">
+        <h3 class="h3"> Calabresa acebolada</h3> 
+        <input type="checkbox" id="check" class="carne">
+    </div>
+
+    <h1 class="h1">Refogados:</h1>
+    <div class="organizar">
+        <h3 class="h3"> Macarrão água e olheo</h3>
+        <input type="checkbox" id="check" class="refogados">
+        <h3 class="h3"> Cabotia refogada</h3>
+        <input type="checkbox" id="check" class="refogados">
+        <h3 class="h3"> Farofa da casa</h3>
+        <input type="checkbox" id="check" class="refogados">
+        <h3 class="h3"> Salada de maionese</h3>
+        <input type="checkbox" id="check" class="refogados">
+        <h3 class="h3"> Batatonese</h3> 
+        <input type="checkbox" id="check" class="refogados">
+    </div>
+    
+    <button id="enviar" onclick="enviar()">Enviar Pedido</button>
+    <section class="total">
+        Total: R$ 0
+    </section>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
